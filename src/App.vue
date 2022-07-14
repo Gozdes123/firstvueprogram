@@ -1,14 +1,19 @@
- <!-- <router-link to="/">Home</router-link> | -->
+
 <template>
-<NavBar/>
+ <!-- <router-link to="/">Home</router-link> | -->
+ <div>
+     <NavBar/>
+     <MyCarousel/>
+ </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import MyCarousel from "./components/MyCarousel.vue";
 export default {
 name:'App',
 components:{
-  NavBar
+  NavBar,MyCarousel
 }
 }
 </script>

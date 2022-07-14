@@ -1,15 +1,25 @@
 <template>
-<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
+ <nav class="full-width clearfix">
+    <div class="fixed-width">
+      <div class="logo">
+        <a href="#">GRACE</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">FEATURE</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">SERMONS</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </template>
 <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+@import '/src/assets/css/NavBar.css';
 </style>
